@@ -9,4 +9,6 @@ import org.springframework.stereotype.Component;
 public interface UserMapper {
    public User queryById(int id);
    public User queryByName(String name);
+   public User queryByTele(String usertele);
+   public void insertUser(User user);
 }

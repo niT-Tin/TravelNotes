@@ -5,5 +5,5 @@ import com.travels.pojo.User;
 public interface UserService {
     public User queryById(int id);
     public User queryByName(String name);
-
+    public void insertUser(User user);
 }
